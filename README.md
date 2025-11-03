@@ -119,4 +119,4 @@ franchise-hub/
 ## Contact
 Your Name - kalpana_kalpana@sfu.ca
 
-Project Link: [https://github.com/yourusername/franchise-hub](https://github.com/yourusername/franchise-hub)
+Project Link: [[https://github.com/kkkalpana/franchise-hub](https://github.com/kkkalpana/franchise-hub)]
