@@ -34,7 +34,7 @@ Franchise Hub is a comprehensive web application designed to streamline franchis
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/franchise-hub.git
+git clone https://github.com/kkkalpana/franchise-hub.git
 cd franchise-hub
 ```
 
@@ -50,7 +50,7 @@ npm install
 cp .env.example .env
 
 # Start the server
-npm start
+npx nodemon server
 ```
 
 ### Frontend Setup
@@ -116,10 +116,7 @@ franchise-hub/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-Distributed under the MIT License.
-
 ## Contact
-Your Name - youremail@example.com
+Your Name - kalpana_kalpana@sfu.ca
 
 Project Link: [https://github.com/yourusername/franchise-hub](https://github.com/yourusername/franchise-hub)
