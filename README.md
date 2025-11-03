@@ -117,6 +117,6 @@ franchise-hub/
 5. Open a Pull Request
 
 ## Contact
-Your Name - kalpana_kalpana@sfu.ca
+Email - kalpana_kalpana@sfu.ca
 
 Project Link: [[https://github.com/kkkalpana/franchise-hub](https://github.com/kkkalpana/franchise-hub)]
