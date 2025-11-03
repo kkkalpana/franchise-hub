@@ -130,7 +130,7 @@ function Applicant() {
 
   return (
     <div>
-      <div className="flex flex-col justify-center items-center w-full h-full bg-[#282D2D] px-5">
+      <div className="min-h-screen flex flex-col justify-center items-center bg-[#282D2D] px-5">
         <div className="xl:max-w-3xl flex flex-col items-end justify-start overflow-hidden mb-2 w-full">
           <div className="flex">
             <h3 className="text-white">Dark Mode : &nbsp;</h3>
@@ -152,7 +152,9 @@ function Applicant() {
         </div>
 
         <div
-          className={`xl:max-w-3xl ${darkMode ? "bg-black" : "bg-white"} w-full p-5 sm:p-10 rounded-md`}
+          className={`xl:max-w-3xl ${
+            darkMode ? "bg-black" : "bg-white"
+          } w-full p-6 sm:p-10 rounded-md shadow-lg`}
         >
           <h1
             className={`text-center text-xl sm:text-3xl font-semibold ${darkMode ? "text-white" : "text-black"}`}
@@ -201,7 +203,7 @@ function Applicant() {
                   onChange={doUpdate}
                 />
                 {errors.email && (
-                  <p className="text-red-500 text-sm mt-1">{errors.temail}</p>
+                  <p className="text-red-500 text-sm mt-1">{errors.email}</p>
                 )}
               </div>
 

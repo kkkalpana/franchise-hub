@@ -11,6 +11,6 @@ let root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   //<Application_form />
   //<Applications />
-  //<FranchiseLoginForm />
-  <Routing />
+  <FranchiseLoginForm />
+  //<Routing />
 );

@@ -43,7 +43,8 @@ const AdminSideBar = () => {
               key={item.label}
               href={item.href}
               className="flex items-center px-2 py-3 text-gray-600 rounded-lg hover:bg-slate-200 hover:text-gray-900 transition-colors group"
-              onClick={() => {
+              onClick={(e) => {
+                e.preventDefault();
                 doNavigate(item.href);
               }}
             >
